@@ -1,0 +1,44 @@
+
+  @import url(./responsive.css);
+
+
+/*-----------------------------------*\
+  #login button
+\*-----------------------------------*/
+
+@media screen and (min-width: 0px) {
+  .login__button {
+      width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .login__button {
+      width: 100%;
+  }
+}
+
+
+/*-----------------------------------*\
+  #Login form
+\*-----------------------------------*/
+
+
+@media screen and (min-width: 0px) {
+  .login__form {
+      width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .login__form {
+      width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .login__form {
+      width: 38%;
+  }
+}
+

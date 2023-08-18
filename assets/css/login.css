@@ -1,0 +1,89 @@
+/*-----------------------------------*\
+  #CUSTOM PROPERTY
+\*-----------------------------------*/
+
+@import url(./style.css);
+
+.login__container {
+  background: var(--lightest-variation);
+  padding-top: 18.1rem;
+  padding-bottom: 5.75rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+/*-----------------------------------*\
+  #LOGIN BUTTON
+\*-----------------------------------*/
+.login__button {
+  border: none;
+  outline: none;
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 1rem 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 300ms;
+  text-align: center;
+}
+
+.login__button:hover {
+  box-shadow: 10px 5px 10px 5px rgba(22, 26, 45, 0.11);
+  transform: scale(1.02);
+}
+
+.login__button:active {
+  box-shadow: inset 0 0 30px 8px rgba(22, 26, 45, 0.11), 0 0 5px 1px #000000;
+  transform: scale(0.99);
+}
+
+
+/*-----------------------------------*\
+  #Login form
+\*-----------------------------------*/
+.login__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.login__form fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.login__form a {
+  align-self: center;
+}
+
+
+/*-----------------------------------*\
+  #Login input
+\*-----------------------------------*/
+.login__input {
+  position: relative;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+/*-----------------------------------*\
+  #Login title
+\*-----------------------------------*/
+
+.login__title {
+  font-size: 3.1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+

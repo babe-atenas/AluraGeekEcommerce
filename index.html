@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>AluraGeeks</title>
+  <meta name="title" content="AluraGeeks">
+  <meta name="description" content="Tienda online sobre el mundo gamer">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo2.png" type="image/png">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Work+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="header-top">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="https://matr3.github.io/AluraGeek/img/Logo.png" width="148" height="38" alt="booken home">
+        </a>
+
+        <div class="input-wrapper">
+          <input type="search" name="search" placeholder="Search our store" class="input-field">
+
+          <button class="btn">Search</button>
+        </div>
+
+        <div class="header-action">
+
+          <button class="nav-open-btn" aria-label="open menu" title="Open Menu" data-nav-toggler>
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="./pages/login.html">
+            <button class="header-action-btn btn-login" aria-label="login" title="Login">
+              Login
+            </button>
+          </a>
+         
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-navbar>
+      <div class="container">
+
+        <nav class="navbar">
+
+          <button class="nav-close-btn" data-nav-toggler aria-label="clsoe menu" title="Clsoe Menu">
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <div class="navbar-top">
+            <input type="search" name="search" placeholder="Buscar en la tienda" class="input-field">
+
+            <button class="search-btn" aria-label="Search">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <!--<div class="navbar-login">
+            <button class="btn-login" aria-label="login" title="Login">
+              Login
+            </button>
+          </div>-->
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Tienda</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Sobre Nosotros</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Contactanos</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <a href="tel:+0123456789" class="header-contact-link">
+          <ion-icon name="headset-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">(+01)234-56789</span>
+        </a>
+
+      </div>
+    </div>
+
+    <div class="overlay" data-overlay data-nav-toggler></div>
+  </header>
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO (BANNER)
+      -->
+
+      <section class="section hero has-bg-image banner" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title has-after">
+            Agosto Promocional!! <br>
+            </h1>
+
+            <p class="hero-text">
+              Productos seleccionados con el 35%
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#consolas">
+
+                <button class="play-btn" aria-label="play video"> Ver consolas
+                  <!--<ion-icon name="play-outline" aria-hidden="true"></ion-icon>-->
+                </button>
+
+              </a>
+
+
+            </div>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner2.png" width="475" height="600" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-label="feature">
+        <div class="container">
+
+          <div class="grid-list">
+
+            <li>
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-1.png" width="100" height="100" loading="lazy" alt="feature icon"
+                    class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Envio Gratis</h3>
+
+                  <p class="card-text">Pedido superior a $100</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-2.png" width="100" height="100" loading="lazy" alt="feature icon"
+                    class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Pago Seguro</h3>
+
+                  <p class="card-text">100% Pago seguro</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-3.png" width="100" height="100" loading="lazy" alt="feature icon"
+                    class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Mejor Precio</h3>
+
+                  <p class="card-text">Bajo costo garantizado</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-4.png" width="100" height="100" loading="lazy" alt="feature icon"
+                    class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Devolución Fácil</h3>
+
+                  <p class="card-text">Dentro de los 30 días de devolución</p>
+                </div>
+
+              </div>
+            </li>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #FEATURED COLLECTION (SECTION PRODUCTS)
+      -->
+
+
+      <!-- 
+        - #SECTION STAR WARS
+      -->
+
+      <section class="section featured" id="starWars" aria-label="featured star wars">
+        <div class="container">
+          <h2 class="h2 section-title product_title">Star Wars</h2>
+          <a class = "product__mostrar" href = "#">Ver todos<img alt = "ver todos icon" src = "./assets/images/arrow_back.svg"></a>
+        </div>
+
+        <div class="product_list" data-starWarsCategory>
+
+          <ul class="grid-list">
+          
+            <li>
+              <div class="product-card">
+          
+                <div class="card-banner img-holder" style="--width: 384; --height: 384;">
+                  <img src="./assets/images/libro-1.png" width="384" height="384" loading="lazy"
+                    alt="The Legend of Zelda: Tears of the Kingdom Nintendo Switch" class="img-cover">
+                </div>
+          
+                <div class="card-content">
+          
+                  <h3 class="h3">
+                    <a href="#" class="card-title">The Legend of Zelda: Tears of the Kingdom Nintendo Switch</a>
+                  </h3>
+          
+                  <data class="card-price" value="239">$239.00</data>
+          
+                </div>
+          
+              </div>
+            </li>
+          
+            <li>
+              <div class="product-card">
+          
+                <div class="card-banner img-holder" style="--width: 384; --height: 384;">
+                  <img src="./assets/images/libro-2.png" width="384" height="384" loading="lazy" alt="Hogwarts Legacy PS5"
+                    class="img-cover">
+                </div>
+          
+                <div class="card-content">
+          
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Hogwarts Legacy PS5</a>
+                  </h3>
+          
+                  <data class="card-price" value="239">$239.00</data>
+          
+                </div>
+          
+              </div>
+            </li>
+          
+            <li>
+              <div class="product-card">
+          
+                <div class="card-banner img-holder" style="--width: 384; --height: 384;">
+                  <img src="./assets/images/libro-3.png" width="384" height="384" loading="lazy" alt="Dead Island 2 PS4"
+                    class="img-cover">
+                </div>
+          
+                <div class="card-content">
+          
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Dead Island 2 PS4</a>
+                  </h3>
+          
+                  <data class="card-price" value="269">$269.00</data>
+          
+                </div>
+          
+              </div>
+            </li>
+          
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #SECTION CONSOLAS
+      -->
+      <section class="section featured" id="consolas" aria-label="featured star wars">
+        <div class="container">
+          <h2 class="h2 section-title product_title">Consolas</h2>
+          <a class = "product__mostrar" href = "pages/all_products.html">Ver todos<img alt = "ver todos icon" src = "./assets/images/arrow_back.svg"></a>
+        </div>
+
+        <div class="product_list" data-consolasCategoria>
+
+          <ul class="grid-list">
+
+            
+            <li>
+              <div class="product-card">
+          
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/libro-4.png" width="384" height="480" loading="lazy" alt="Resident Evil 4 PS4"
+                    class="img-cover">
+                </div>
+          
+                <div class="card-content">
+          
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Resident Evil 4 PS4</a>
+                  </h3>
+          
+                  <data class="card-price" value="229">$229.00</data>
+          
+                </div>
+          
+              </div>
+            </li>
+          
+            <li>
+              <div class="product-card">
+          
+                <div class="card-banner img-holder" style="--width: 384; --height: 384;">
+                  <img src="./assets/images/libro-5.png" width="384" height="384" loading="lazy" alt="Star Wars Jedi Survivor PS5"
+                    class="img-cover">
+                </div>
+          
+                <div class="card-content">
+          
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Star Wars Jedi Survivor PS5</a>
+                  </h3>
+          
+                  <data class="card-price" value="279">$279.00</data>
+          
+                </div>
+          
+              </div>
+            </li>
+          
+            <li>
+              <div class="product-card">
+          
+                <div class="card-banner img-holder" style="--width: 384; --height: 350;">
+                  <img src="./assets/images/libro-6.png" width="384" height="350" loading="lazy" alt="Street Fighter 6 PS4"
+                    class="img-cover">
+                </div>
+          
+                <div class="card-content">
+          
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Street Fighter 6 PS4</a>
+                  </h3>
+          
+                  <data class="card-price" value="239">$239.00</data>
+          
+                </div>
+          
+              </div>
+            </li>
+          
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #DIVERSOS
+      -->
+      <section class="section featured" id="diversos" aria-label="featured star wars">
+        <div class="container">
+          <h2 class="h2 section-title product_title">Diversos</h2>
+          <a class = "product__mostrar" href = "pages/all_products.html">Ver todos<img alt = "ver todos icon" src = "./assets/images/arrow_back.svg"></a>
+        </div>
+
+        <div class="product_list" data-diversosCategoria>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="product-card">
+          
+                <div class="card-banner img-holder" style="--width: 384; --height: 384;">
+                  <img src="./assets/images/libro-7.png" width="384" height="384" loading="lazy" alt="Final Fantasy XVI PS5"
+                    class="img-cover">
+                </div>
+          
+                <div class="card-content">
+          
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Final Fantasy XVI PS5</a>
+                  </h3>
+          
+                  <data class="card-price" value="279">$279.00</data>
+                </div>
+          
+              </div>
+            </li>
+          
+            <li>
+              <div class="product-card">
+          
+                <div class="card-banner img-holder" style="--width: 384; --height: 384;">
+                  <img src="./assets/images/libro-8.png" width="384" height="384" loading="lazy"
+                    alt="Crash Team Rumble Deluxe PS4" class="img-cover">
+                </div>
+          
+                <div class="card-content">
+          
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Crash Team Rumble Deluxe PS4</a>
+                  </h3>
+          
+                  <data class="card-price" value="269">$269.00</data>
+                </div>
+          
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #OFFER
+      -->
+
+      <section class="section offer has-bg-image" aria-label="special offer"
+        style="background-image: url('./assets/images/section-bg.jpg')">
+        <div class="container">
+
+          <p class="section-subtitle">Oferta Especial</p>
+
+          <h2 class="h2 section-title">¡Todos los productos tienen un 35% de descuento ahora!¡No te pierdas esta gran oferta!</h2>
+
+          <p class="section-text">
+            Esta oferta es para los videojuegos populares, consolas PS4 y algunos accesorios.
+          </p>
+
+          <ul class="countdown-list">
+
+            <li>
+              <p class="countdown-time">15</p>
+
+              <p class="countdown-label">Dias</p>
+            </li>
+
+            <li>
+              <p class="countdown-time">21</p>
+
+              <p class="countdown-label">Horas</p>
+            </li>
+
+            <li>
+              <p class="countdown-time">18</p>
+
+              <p class="countdown-label">Minutos</p>
+            </li>
+
+            <li>
+              <p class="countdown-time">14</p>
+
+              <p class="countdown-label">Segundos</p>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn">Explorar Más</a>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #POPULAR
+      -->
+
+      <section class="section popular" aria-label="popular collection">
+        <div class="container">
+
+          <h2 class="h2 section-title">Productos Populares</h2>
+
+          <p class="section-text">
+            Videojuegos, Consolas, Accesorios y más.
+          </p>
+
+          <ul class="product-list has-scrollbar">
+
+            <li class="scrollbar-item" data-filter="sell">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/libro-9.png" width="384" height="480" loading="lazy" alt="Consola SONY PS5 HW Negro 1TB + Mando + Juego de Video God of War Ragnarok"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Consola SONY PS5 HW Negro 1TB + Mando + Juego de Video God of War Ragnarok</a>
+                  </h3>
+
+                  <data class="card-price" value="3,100">$3,100.00</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="new">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="https://www.apgames.pe/1023-large_default/naruto-shippuden-ultimate-ninja-storm-4-road-to-boruto-ps4-preventa.jpg" width="384" height="480" loading="lazy" alt="Naruto Shippuden Ultimate Ninja Storm 4 Road to Boruto PS4"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Naruto Shippuden Ultimate Ninja Storm 4 Road to Boruto PS4</a>
+                  </h3>
+
+                  <data class="card-price" value="79">$79.00</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="sell">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 340; --height: 420;">
+                  <img src="./assets/images/libro-11.png" width="340" height="420" loading="lazy" alt="Controles Joy-Con Rojo y Azul Nintendo Switch"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Controles Joy-Con Rojo y Azul Nintendo Switch</a>
+                  </h3>
+
+                  <data class="card-price" value="389">$389.00</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="featured">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/libro-12.png" width="384" height="480" loading="lazy"
+                    alt="Sony Dualsense Charging Original Station – PS5" class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Sony Dualsense Charging Original Station – PS5</a>
+                  </h3>
+
+                  <data class="card-price" value="179">$179.00</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="new">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/libro-13.png" width="384" height="480" loading="lazy"
+                    alt="Control Dualsense Cosmic Rojo Guinda PS5" class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Control Dualsense Cosmic Rojo Guinda PS5</a>
+                  </h3>
+
+                  <data class="card-price" value="309">$309.00</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="sell">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/libro-14.png" width="384" height="480" loading="lazy" alt="Metroid Dread Nintendo Switch"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Metroid Dread Nintendo Switch</a>
+                  </h3>
+
+                  <data class="card-price" value="215">$215.00</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="featured">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="https://fhalcongaming.com/wp-content/uploads/2020/10/PS40067_1.png" width="384" height="480" loading="lazy" alt="Grand Theft Auto V Premium Edition PS4"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Grand Theft Auto V Premium Edition PS4</a>
+                  </h3>
+
+                  <data class="card-price">Free</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item" data-filter="new">
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/libro-16.png" width="384" height="480" loading="lazy" alt="Dragon Ball Z Kakarot PS4"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Dragon Ball Z Kakarot PS4</a>
+                  </h3>
+
+                  <data class="card-price" value="119">$119.00</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" aria-label="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">Blogs más Recientes</h2>
+
+          <p class="section-text">
+            Enteráte de curiosidades y noticias del mundo gamer.
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                  <img src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/808784/808784_1140x516.jpg" width="600" height="400" loading="lazy"
+                    alt="Electronic Arts cerrará los servidores de 3 juegazos en 2023" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Electronic Arts cerrará los servidores de 3 juegazos en 2023</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="meta-item">
+                      <time class="meta-link" datetime="2022-03-04">08 August, 2023</time>
+                    </li>
+
+                    <li class="meta-item">
+                      <a href="#" class="meta-link">1 comment</a>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    Los fanáticos tendrán pocos meses para disfrutar títulos de EA...
+                  </p>
+
+                  <a href="#" class="btn card-btn">Leer Más...</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                  <img src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/808761/808761_1140x516.jpg" width="600" height="400" loading="lazy"
+                    alt="Tras triunfar a lo grande, ¿Baldur’s Gate 3 recibirá una expansión?l" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Tras triunfar a lo grande, ¿Baldur’s Gate 3 recibirá una expansión?</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="meta-item">
+                      <time class="meta-link" datetime="2022-03-04">08 August, 2023</time>
+                    </li>
+
+                    <li class="meta-item">
+                      <a href="#" class="meta-link">2 comment</a>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    Swen Vincke habló sobre los retos de crear contenido adicional para el exitoso RPG...
+                  </p>
+
+                  <a href="#" class="btn card-btn">Leer Más...</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
+                  <img src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/808693/808693_1140x516.jpg" width="600" height="400" loading="lazy"
+                    alt="International activities of the book" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Conoceremos el origen de James Bond en Project 007</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="meta-item">
+                      <time class="meta-link" datetime="2022-03-04">07 August, 2023</time>
+                    </li>
+
+                    <li class="meta-item">
+                      <a href="#" class="meta-link">3 comment</a>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    El juego de IO Interactive es uno de los más esperados...
+                  </p>
+
+                  <a href="#" class="btn card-btn">Leer Más...</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer has-bg-image" style="background-image: url('./assets/images/section-bg.jpg')">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="https://matr3.github.io/AluraGeek/img/Logo.png" width="138" height="28" alt="booken home">
+          </a>
+
+          <p class="footer-text">
+            Empresa apasionada por el mundo de los videjuegos que te otorga productos gamer e información útil sobre noticias importantes de los videjuegos.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Corporativo</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Categorías</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Sobre Nosotros</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contáctanos</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQs</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Lugares físicos de Venta</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Información</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Tienda Online</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Políticas de Privacidad</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Politica de Reembolso</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Politica de Envios</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Términos de Servicio</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Copyright 2023 | Made With by Naylin Acosta.
+        </p>
+
+        <img src="./assets/images/payment-mehtod.png" width="311" height="30" loading="lazy" alt="Payment method"
+          class="w-100">
+
+      </div>
+    </div>
+
+  </footer>
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./controllers/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
